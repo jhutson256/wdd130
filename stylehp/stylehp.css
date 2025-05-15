@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Knewave&display=swap');
+
+#background {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #E6F2E4;
+}
+
+nav {
+    display: flex;
+    font-family: "Bangers", "Knewave", Arial;
+}
+
+.page-links {
+    flex: 10%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #374016;
+    text-decoration: none;
+}
+
+.page-links:hover {
+    color: #374016;
+    background-color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: "Knewave", "Bangers", "Arial Black";
+    font-size: 2em;
+}
+
+#main-top {
+    display: flex;
+    background-color: #374016;
+}
+
+.main-imgs {
+    flex: 50%;
+    padding: 5px;
+    width: 5%;
+    height: 5%;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: "Knewave", "Bangers", "Arial Black";
+    font-size: 1.75em;
+}
+
+#main-info {
+    text-align: center;
+    color: white;
+    background-color: #374016;
+    font-family: "Bangers", "Knewave", Arial;
+    font-size: 1.25em;
+}
+
+#footer-format {
+    color: #E6F2E4;
+    background-color: black;
+    text-align: center;
+    font-family: "Bangers", "Knewave", Arial;
+}
+
+#footer-content:hover {
+    text-decoration: underline;   
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    color: #E6F2E4;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    color: #374016;
+    background-color: #E6F2E4;
+    text-decoration: none;
+}

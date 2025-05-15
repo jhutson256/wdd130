@@ -1,0 +1,64 @@
+body {
+    background-color: #739FCF;
+    max-width: 33%;
+    margin: auto;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+header:hover {
+    color: black;
+}
+
+#main-top-quote {
+    color: white;
+    text-align: center;
+}
+
+#president-nelson {
+    text-align: center;
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#main-list {
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+#main-img {
+    text-align: center;
+}
+
+img {
+    width: 35%;
+}
+
+#main-bottom-quote {
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: bold;
+}
+
+footer p {
+    max-width: 80%;
+    margin: auto;
+}
