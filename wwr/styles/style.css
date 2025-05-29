@@ -42,7 +42,7 @@ body{
 }
 
 header{
-    background-color: #4E74A6;
+    background-color: #4E74A690;
 }
 
 #hero {
@@ -124,7 +124,6 @@ main section {
 main section img {
     box-sizing: border-box;
 }
-
 
 .card_img {
     border: 10px solid #4E74A6;
