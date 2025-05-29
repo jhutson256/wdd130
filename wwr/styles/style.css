@@ -129,7 +129,14 @@ main section img {
 .card_img {
     border: 10px solid #4E74A6;
     width: 100%;
-    height: 60%
+    height: 60%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+
+.card_img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 .views_card, .camping_card, .rafting_card {
@@ -159,10 +166,11 @@ main section img {
 }
 
 .banner {
-    grid-column: 2/6;
+    grid-column: 2/7;
     grid-row: 5/8;
     width: 100%;
-    height: 50%
+    height: 100%;
+    box-shadow: 5px 5px 10px black;
 }
 
 .msg {
@@ -171,6 +179,7 @@ main section img {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
+    box-shadow: 5px 5px 10px black;
 }
 
 .msg h2 {
@@ -189,6 +198,9 @@ footer {
     background-color: #4E74A6;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer p {
@@ -227,4 +239,59 @@ h2 {
 h4 {
     color: #2E4559;
     font-family: "Bangers", "Knewave", "Arial Black";
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home_grid {
+        display: block;
+        height: auto;
+    }
+
+    nav, footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    #hero {
+        margin-top: 0;
+    }
+
+    #hero_msg {
+        margin-top: 0;
+    }
+
+    #hero_msg h4 {
+        display: none;
+    }
+
+    #hero_msg h1 {
+        color: #2E4559;
+    }
+
+    .home_title {
+        font-size: 25px;
+    }
+
+    .camping_card, .views_card, .rafting_card {
+        margin: 50px auto;
+        width: 60%;
+    }
+
+    #background {
+        display: none;
+    }
+
+    .banner, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
 }
