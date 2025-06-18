@@ -1,0 +1,49 @@
+body {
+    align-content: center;
+    background-color: black;
+}
+
+#card {
+    max-width: 250px;
+    background-color: white;
+    align-content: center;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    text-align: center;
+}
+
+.main-text {
+    font-family: "Roboto", sans-serif;
+}
+
+#date {
+    color: rgb(82 102 135);
+    margin-bottom: 0.15em;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0.15em;
+    padding: 0;
+}
+
+#paragraph {
+    color: rgb(147, 137, 147);
+}
+
+#footer {
+    font-family: "Roboto Slab", serif;
+    background-color: rgb(63, 91, 138);
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+}
+
