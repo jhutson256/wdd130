@@ -129,6 +129,49 @@ main section img {
     box-sizing: border-box;
 }
 
+.color-section, .main-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main-section p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#subpage-h1 {
+    padding-top: 25px;
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+.subpage-h4 {
+    color: #F2F2F2;
+}
+
+.color-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: #A68863;
+    color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.main-imgs {
+    grid-column: 1/2;
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+}
+
+.img-section {
+    grid-column: 2/3;
+    display: inline-block;
+    padding-right: 25px;
+}
+
 .card_img {
     border: 10px solid #4E74A6;
     width: 100%;
@@ -239,7 +282,7 @@ h2 {
     margin: 0;
 }
 
-h4 {
+h1, h4 {
     color: #2E4559;
     font-family: "Bangers", "Knewave", "Arial Black";
 }
