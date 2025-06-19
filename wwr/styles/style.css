@@ -171,6 +171,7 @@ main section img {
 
 .main-imgs img {
     width: 100%;
+    box-shadow: 5px 5px 10px black;
 }
 
 .img-section {
@@ -351,6 +352,7 @@ h1, h4 {
 
     .main-imgs img {
         width: 75%;
+        box-shadow: 5px 5px 10px black;
     }
 
     .img-section {
