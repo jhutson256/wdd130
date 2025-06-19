@@ -152,18 +152,25 @@ main section img {
 .color-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 25px;
     text-align: center;
     background-color: #A68863;
     color: #F2F2F2;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .main-imgs {
     grid-column: 1/2;
     display: inline-block;
-    align-items: center;
-    justify-items: center;
+}
+
+.main-imgs img {
+    width: 100%;
 }
 
 .img-section {
