@@ -120,6 +120,10 @@ footer img {
     align-content: center;
 }
 
+#social-links a {
+    text-decoration: none;
+}
+
 #social-links img{
     width: 80px;
     padding-right: 15px;
