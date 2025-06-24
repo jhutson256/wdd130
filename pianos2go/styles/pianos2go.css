@@ -132,13 +132,13 @@ p {
     box-shadow: 5px 5px 10px black;
 }
 
+#home-page-top:hover {
+    transform: scale(1.02);
+}
+
 #home-page-top p, #home-page-bottom p {
     padding-left: 15px;
     padding-right: 15px;
-}
-
-#home-page-top:hover {
-    transform: scale(1.02);
 }
 
 #home-page-bottom {
