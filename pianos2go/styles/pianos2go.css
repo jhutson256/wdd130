@@ -250,7 +250,7 @@ footer img {
 }
 
 @media screen and (max-width: 900px) {
-    nav, footer, main{
+    nav, footer, #home-page-grid, #equipment-main, #moving-grid {
         flex-direction: column;
     }
 
@@ -289,7 +289,7 @@ footer img {
         margin: auto;
     }
 
-    main {
+    #home-page-grid, #equipment-main, #moving-grid {
         display: flex;
     }
 
