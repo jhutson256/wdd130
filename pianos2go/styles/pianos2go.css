@@ -25,7 +25,7 @@ nav {
 .nav-links {
     text-align: center;
     text-decoration: none;
-    color: #F3F3F3;
+    color: #141118;
     padding: 35px;
     font-size: 1.5em;
 }
@@ -102,7 +102,7 @@ p {
     font-size: 1.25em;
     font-family: "Merriweather", Georgia, Verdana;
     background-color: #C6A47E;
-    color: #F3F3F3;
+    color: #141118;
     border: none;
     transition-duration: 0.5s;
     text-decoration: none;
@@ -224,7 +224,7 @@ footer img {
 #footer-links a {
     padding: 25px;
     text-decoration: none;
-    color: #F3F3F3;
+    color: #141118;
 }
 
 #footer-links a:hover {
