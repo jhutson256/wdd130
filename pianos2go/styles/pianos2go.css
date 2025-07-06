@@ -161,16 +161,71 @@ p {
     width: 75%;
 }
 
-#equipment-img-top img{
-    width: 25%;
+#equipment-main {
+    text-align: center;
+}
+
+#equipment-heading {
+    padding: 50px;
+}
+
+#equipment-top-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #C6A47E;
+    color: #F3F3F3;
+}
+
+#equipment-img-top {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#equipment-img-bottom {
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+#equipment-top-section {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+#equipment-img-top img {
+    width: 75%;
+    box-shadow: 5px 5px 10px black;
 }
 
 #equipment-img-bottom img {
-    width: 25%;
+    width: 75%;
+    box-shadow: 5px 5px 10px black;
+}
+
+hr {
+    padding: 1px;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #B16F4C;
+}
+
+#equipment-bottom-text {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #equipment-bottom-section img {
     width: 25%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px black;
 }
 
 #moving-top-img img {
@@ -250,7 +305,7 @@ footer img {
 }
 
 @media screen and (max-width: 900px) {
-    nav, footer, #home-page-grid, #equipment-main, #moving-grid {
+    nav, footer, #home-page-grid, #equipment-top-grid, #equipment-main, #moving-grid {
         flex-direction: column;
     }
 
@@ -289,7 +344,7 @@ footer img {
         margin: auto;
     }
 
-    #home-page-grid, #equipment-main, #moving-grid {
+    #home-page-grid, #equipment-top-grid, #equipment-main, #moving-grid {
         display: flex;
     }
 
@@ -299,6 +354,38 @@ footer img {
 
     #home-page-top:hover {
         transform: none;
+    }
+
+    #equipment-top-grid {
+        margin: 0;
+    }
+
+    #equipment-top-section h2, #equipment-top-section p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #equipment-img-top {
+        display: inline-block;
+    }
+
+    #equipment-img-bottom {
+        display: inline-block;
+    }
+
+    hr {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #equipment-bottom-text {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 0;
+    }
+
+    #equipment-bottom-section img {
+        width: 75%;
     }
     
     .nav-links {
