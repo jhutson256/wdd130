@@ -8,14 +8,36 @@
 </head>
 <body>
     <div id="header-content"></div>
-    <main id="equipment-main">
-        <div id="equipment-heading">
-            <h1>What Equipment Should You Use?</h1>
+    <div id="equipment-heading">
+        <h1>What Equipment Should You Use?</h1>
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/equipment.jpg" style="width:100%">
+            <div id="first-text">General Equipment</div>
         </div>
-        <div id="equipment-top-grid">
-            <div id="equipment-img-top">
-                <img src="images/swivel-wheel-dolly.jpg" alt="swivel wheel furniture dolly">
-            </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/swivel-wheel-dolly.jpg" style="width:100%">
+            <div class="text">Swivel Wheel Dolly</div>
+        </div>
+        <div class="mySlides fade">
+            <div id="third-numbertext">3 / 3</div>
+            <img src="images/ratchet-strap.jpg" style="width:100%">
+            <div class="text">Ratchet Strap</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <main id="equipment-main">
+        <div id="equipment-top">
             <div id="equipment-top-section">
                 <h2>General Equipment</h2>
                 <p>
@@ -31,12 +53,13 @@
                     you will need extra equipment for a grand piano. 
                 </p>
             </div>
-            <div id="equipment-img-bottom">
-                <img src="images/equipment.jpg" alt="upright piano on moving equipment">
-            </div>
         </div>
         <hr />
-        <div id="equipment-bottom-section">
+        <div id="equipment-bottom-grid">
+            <div id="equipment-bottom-img">
+                <img src="images/grand-boards.jpg" alt="grand piano moving boards">
+                <h2>Grand Boards</h2>
+            </div>
             <div id="equipment-bottom-text">
                 <h2>Grand Piano Equipment</h2>
                 <p>
@@ -53,7 +76,6 @@
                     should be at least 3/4" wide and 36" diameter. 
                 </p>
             </div>
-            <img src="images/grand-boards.jpg" alt="grand piano moving boards">
         </div>
     </main>
     <div id="footer-content"></div>
