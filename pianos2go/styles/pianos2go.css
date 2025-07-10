@@ -460,6 +460,7 @@ footer img {
 
     #equipment-top {
         margin: 0;
+        margin-top: 50px;
     }
 
     #equipment-img-top {
@@ -478,7 +479,7 @@ footer img {
     #equipment-bottom-text {
         padding-left: 25px;
         padding-right: 25px;
-        margin: 0;
+        margin-top: 25px;
     }
 
     #equipment-bottom-section img {
