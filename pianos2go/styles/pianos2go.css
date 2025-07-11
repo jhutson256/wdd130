@@ -168,6 +168,7 @@ p {
 #equipment-heading {
     padding: 50px;
     text-align: center;
+    color: #141118;
 }
 
 #equipment-top {
@@ -216,6 +217,10 @@ hr {
     grid-column: 1/3;
 }
 
+#equipment-bottom-img {
+    color: #141118;
+}
+
 #equipment-bottom-text {
     grid-column: 3/5;
     padding-top: 25px;
@@ -227,12 +232,81 @@ hr {
     background-color: #C6A47E;
 }
 
+#moving-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#moving-heading {
+    grid-column: 1/3;
+    color: #141118;
+    padding: 25px;
+}
+
+#top-background {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: #C6A47E;
+}
+
+#moving-top-img {
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
 #moving-top-img img {
-    width: 25%;
+    width: 66%;
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 12px;
+}
+
+#moving-top-heading {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: #F3F3F3;
+}
+
+#moving-top-section {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    background-color: #C6A47E;
+    color: #F3F3F3;
+    margin-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#bottom-background {
+    grid-column: 1/3;
+    grid-row: 6/7;
+    background-color: #B16F4C;
+}
+
+#moving-bottom-img {
+    grid-column: 2/3;
+    grid-row: 5/7;
 }
 
 #moving-bottom-img img {
-    width: 25%;
+    width: 66%;
+    margin-bottom: 12px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#moving-bottom-heading {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    color: #F3F3F3;
+}
+
+#moving-bottom-section {
+    grid-column: 1/3;
+    grid-row: 7/8;
+    background-color: #B16F4C;
+    color: #F3F3F3;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 footer {
@@ -483,6 +557,29 @@ footer img {
     }
 
     #equipment-bottom-section img {
+        width: 75%;
+    }
+
+    #moving-heading {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #moving-top-heading {
+        background-color: #C6A47E;
+        margin-top: 25px;
+    }
+
+    #moving-top-img img {
+        width: 75%;
+    }
+
+    #moving-bottom-heading {
+        background-color: #B16F4C;
+        margin-top: 25px;
+    }
+
+    #moving-bottom-img img {
         width: 75%;
     }
     
