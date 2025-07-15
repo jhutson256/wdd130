@@ -275,6 +275,7 @@ hr {
     margin-bottom: 100px;
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 25px;
 }
 
 #bottom-background {
@@ -307,6 +308,7 @@ hr {
     color: #F3F3F3;
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 25px;
 }
 
 footer {
